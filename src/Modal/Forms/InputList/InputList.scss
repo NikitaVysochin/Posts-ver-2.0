@@ -1,0 +1,90 @@
+.modal-main-container {
+  margin: auto auto;
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  width: 250px;
+  height: 400px;
+  justify-content: space-evenly;
+  
+  .modal-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+
+    input {
+      border-radius: 6px;
+      width: 90%;
+    }
+  }
+
+  .modal-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+
+    input {
+      border-radius: 6px;
+      width: 90%;
+    }
+  }
+
+  .modal-news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+
+    textarea {
+      border-radius: 6px;
+      width: 90%;
+    }
+  }
+
+  .modal-tags {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+
+    input {
+      border-radius: 6px;
+      width: 90%;
+    }
+  }
+
+  .main-tags {
+    display: flex;
+    flex-wrap: wrap;
+
+    .container-tag {
+      display: flex;
+      border: 2px solid rgb(23, 177, 30);
+      margin-right: 3px;
+      margin-left: 2px;
+
+      .but-X {
+        cursor: pointer;
+        background-color: red;
+        margin-left: 4px;
+      }
+    }
+  }
+
+  .save-button {
+    width: 100px;
+    height: 45px;
+    border-radius: 4px;
+    background-color: rgb(255, 61, 47);
+    cursor: pointer;
+    text-align: center;
+    line-height: 45px;
+    margin: 0 auto;
+
+    &:hover {
+      border: 1px solid black
+    }
+  }
+}
